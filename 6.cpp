@@ -13,7 +13,11 @@ int main()
 			break;
 		}
 		case 0:{
-			cout<<"Negative number ";
+			if(num==0){
+				cout<<"zero";
+			}else{
+				cout<<"Negative number ";
+			}
 			break;
 		}
 		default:{
